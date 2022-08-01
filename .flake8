@@ -1,0 +1,9 @@
+[flake8]
+
+exclude =
+    setup.py,
+    .git
+    __pycache__,
+
+per-file-ignores =
+    tests/*: E202, E203, E501, F403, F405
